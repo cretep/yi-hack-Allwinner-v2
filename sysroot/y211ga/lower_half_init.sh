@@ -18,6 +18,8 @@ else
         else
             echo "not found ssv6x5x-wifi.cfg"
         fi
+    elif [ -f /backup/ko/atbm603x_wifi_usb.ko ];then
+      insmod /backup/ko/atbm603x_wifi_usb.ko
     fi
 fi
 
